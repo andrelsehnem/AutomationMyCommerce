@@ -23,7 +23,11 @@
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
 				<Prp name="activity" type="S" value="{941EB883-2DE9-4759-AB4A-88AF3C85FE14}"/>
 			</Node>
-			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}"/>
+			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
+				<Node name="{45a9cb4a-0fcb-4c30-b3f1-94147bf9939e}">
+					<Prp name="hash" type="I" value="1"/>
+				</Node>
+			</Node>
 			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
 				<Node name="workspace">
 					<Node name="0">
@@ -71,21 +75,31 @@
 				<Node name="{00000000-0000-0000-0000-000000000000}">
 					<Node name="{941eb883-2de9-4759-ab4a-88af3c85fe14}">
 						<Node name="0">
-							<Prp name="bottom" type="I" value="5"/>
-							<Prp name="collapsed" type="B" value="0"/>
-							<Prp name="top" type="I" value="2"/>
+							<Prp name="bottom" type="I" value="13"/>
+							<Prp name="collapsed" type="B" value="-1"/>
+							<Prp name="top" type="I" value="0"/>
 						</Node>
 						<Node name="1">
-							<Prp name="bottom" type="I" value="9"/>
-							<Prp name="collapsed" type="B" value="0"/>
-							<Prp name="top" type="I" value="7"/>
+							<Prp name="bottom" type="I" value="28"/>
+							<Prp name="collapsed" type="B" value="-1"/>
+							<Prp name="top" type="I" value="15"/>
 						</Node>
 						<Node name="2">
-							<Prp name="bottom" type="I" value="13"/>
-							<Prp name="collapsed" type="B" value="0"/>
-							<Prp name="top" type="I" value="11"/>
+							<Prp name="bottom" type="I" value="44"/>
+							<Prp name="collapsed" type="B" value="-1"/>
+							<Prp name="top" type="I" value="31"/>
 						</Node>
-						<Prp name="bottom" type="I" value="13"/>
+						<Node name="3">
+							<Prp name="bottom" type="I" value="59"/>
+							<Prp name="collapsed" type="B" value="-1"/>
+							<Prp name="top" type="I" value="46"/>
+						</Node>
+						<Node name="4">
+							<Prp name="bottom" type="I" value="74"/>
+							<Prp name="collapsed" type="B" value="0"/>
+							<Prp name="top" type="I" value="64"/>
+						</Node>
+						<Prp name="bottom" type="I" value="74"/>
 						<Prp name="collapsed" type="B" value="0"/>
 						<Prp name="top" type="I" value="0"/>
 					</Node>
@@ -102,9 +116,7 @@
 						<Node name="testedapps"/>
 					</Node>
 				</Node>
-				<Node name="automationmycommerce logs">
-					<Node name="inicio logs"/>
-				</Node>
+				<Node name="automationmycommerce logs"/>
 			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{8EBE6EB3-803D-4913-AD7A-D71552123A67}"/>

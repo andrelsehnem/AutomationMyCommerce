@@ -79,6 +79,44 @@
 											</Child>
 										</Children>
 									</Child>
+									<Child Name="txtPassword" Key="{D16E6F72-BEB5-44C8-B05C-CE5C5AE7C481}">
+										<Image FileName="-741862069" Left="40" Top="308" Right="157" Bottom="329" />
+										<TypeInfo Item0="{46B4131C-8659-4962-82CA-D057F3C35637}" />
+										<Properties>
+											<Property Name="NativeVBObject.Name">
+												<Value Value="txtPassword" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="txtPassword" Key="{9511BBBE-7283-482B-B734-2324111ACB6A}">
+												<Image FileName="-741862069" Left="40" Top="308" Right="157" Bottom="329" />
+												<TypeInfo Item0="{9E7E56CC-89F0-4FD3-9EC9-95C06212F053}" />
+												<Properties>
+													<Property Name="NativeVBObject.Name">
+														<Value Value="txtPassword" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Text1" Key="{E83E518F-881A-46CA-83D7-D58F074A22A0}">
+												<Image FileName="-741862069" Left="40" Top="308" Right="157" Bottom="329" />
+												<TypeInfo Item0="{8EDF9139-D7B2-4912-A645-63EEEDD83E2F}" />
+												<Properties>
+													<Property Name="NativeVBObject.Name">
+														<Value Value="Text1" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="cmdGravar" Key="{68B96438-4468-43A1-A996-FC94ACDB7F6E}">
+										<Image FileName="-741862069" Left="176" Top="302" Right="265" Bottom="335" />
+										<TypeInfo Item0="{46B4131C-8659-4962-82CA-D057F3C35637}" />
+										<Properties>
+											<Property Name="NativeVBObject.Name">
+												<Value Value="cmdGravar" />
+											</Property>
+										</Properties>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="dlgMycommerce" Key="{DDD269A4-3159-440F-A365-C9A96A4B2241}">
@@ -131,6 +169,56 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="dlgVisualSoftware" Key="{2E532BF3-0708-4E2D-AA08-AA43E20CA8EF}">
+								<Image FileName="-1284078428" Left="0" Top="0" Right="317" Bottom="149" />
+								<TypeInfo Item0="{F5C887AA-0679-4E96-8CA5-762DD243E2A2}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Visual Software" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Static" Key="{FA79B8B5-AF96-41E5-B186-E984A0C61C54}">
+										<Image FileName="-1284078428" Left="65" Top="59" Right="284" Bottom="74" />
+										<TypeInfo Item0="{46B4131C-8659-4962-82CA-D057F3C35637}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Static" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Atenção! Usuários e senhas não conferem!" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="Static2" Key="{24837C0B-DA95-4A03-ADB3-A9DCF2B7A55B}">
+										<Image FileName="-1284078428" Left="24" Top="49" Right="56" Bottom="81" />
+										<TypeInfo Item0="{46B4131C-8659-4962-82CA-D057F3C35637}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Static" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnOK" Key="{E5D03E38-1B60-4860-8512-7D86BA21F36E}">
+										<Image FileName="-1284078428" Left="224" Top="114" Right="299" Bottom="137" />
+										<TypeInfo Item0="{9D9A96E0-DCF3-48D9-B3E0-AE1C54A15D3F}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="OK" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -147,11 +235,21 @@
 					<Child Name="txtUsuario" Owner="{93676B2C-7A52-4606-8407-34E455EA9AEF}" />
 					<Child Name="Text1" Owner="{3AF3FEA9-DD6D-4E3D-9C6E-F9C0E68E216E}" />
 				</Child>
+				<Child Name="txtPassword" Owner="{D16E6F72-BEB5-44C8-B05C-CE5C5AE7C481}">
+					<Child Name="txtPassword" Owner="{9511BBBE-7283-482B-B734-2324111ACB6A}" />
+					<Child Name="Text1" Owner="{E83E518F-881A-46CA-83D7-D58F074A22A0}" />
+				</Child>
+				<Child Name="cmdGravar" Owner="{68B96438-4468-43A1-A996-FC94ACDB7F6E}" />
 			</Child>
 			<Child Name="dlgMycommerce" Owner="{DDD269A4-3159-440F-A365-C9A96A4B2241}">
 				<Child Name="Static" Owner="{03AD2AD9-E0E2-4A32-9739-C797E4429B9B}" />
 				<Child Name="Static2" Owner="{934D38E1-1C44-4C91-884B-674FBCAA6C77}" />
 				<Child Name="btnOK" Owner="{363B3EC3-57B9-4EE4-B05C-847715D76033}" />
+			</Child>
+			<Child Name="dlgVisualSoftware" Owner="{2E532BF3-0708-4E2D-AA08-AA43E20CA8EF}">
+				<Child Name="Static" Owner="{FA79B8B5-AF96-41E5-B186-E984A0C61C54}" />
+				<Child Name="Static2" Owner="{24837C0B-DA95-4A03-ADB3-A9DCF2B7A55B}" />
+				<Child Name="btnOK" Owner="{E5D03E38-1B60-4860-8512-7D86BA21F36E}" />
 			</Child>
 		</Child>
 	</LogicalNodes>

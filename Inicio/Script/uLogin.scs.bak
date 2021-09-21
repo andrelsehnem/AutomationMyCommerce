@@ -49,8 +49,8 @@ function setUser(cod){
 function testar(){ 
   Log["AppendFolder"]("Teste iniciado");
   abrirMycommerce();
-  setEmpresa(3);
-  setEmpresa(2);
-  setUser(5);
-  setUser(2);
+  //setEmpresa(30);
+  //setEmpresa(2);
+  //setUser(5);
+  setUser(53);
 }

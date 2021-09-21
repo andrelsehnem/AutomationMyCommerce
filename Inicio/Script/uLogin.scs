@@ -44,13 +44,32 @@ function setUser(cod){
   Log["PopLogFolder"]();
 }
 
+function setSenha(cod){
+  Log["AppendFolder"]("Inserir senha " + cod);
+  NameMapping["Sys"]["myCommerce"]["frmLogaSistema"]["txtPassword"]["SetFocus"]();
+  NameMapping["Sys"]["myCommerce"]["frmLogaSistema"]["txtPassword"]["txtPassword"]["Keys"](cod);
+  NameMapping["Sys"]["myCommerce"]["frmLogaSistema"]["txtPassword"]["Keys"]("[Enter]");
+  if(Aliases["myCommerce"]["dlgVisualSoftware"]["Exists"]){
+    Log["Warning"](Aliases["myCommerce"]["dlgVisualSoftware"]["Static"]["WndCaption"]);
+    Aliases["myCommerce"]["dlgVisualSoftware"]["btnOK"]["Click"]();
+  }
+  else{
+    Log["Message"]("Logou!");
+  }
+  Log["PopLogFolder"]();
+}
+
+
 
 //banco 7472
 function testar(){ 
   Log["AppendFolder"]("Teste iniciado");
   abrirMycommerce();
-  //setEmpresa(30);
-  //setEmpresa(2);
-  //setUser(5);
-  setUser(53);
+  setEmpresa(30);
+  setEmpresa(1);
+  setUser(533);
+  setUser(2);
+  setSenha(335);
+  setSenha(1);
+  Log["PopLogFolder"]();
 }

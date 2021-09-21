@@ -192,6 +192,15 @@
 				<Prp name="relpath" type="S" value="21_09_2021_17_31_40_400\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
+			<Node name="log idx=0019">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44460.7371633218"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{0B69DCA7-1FD9-4602-9B23-9CE1E9C98280}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [uLogin\testar]"/>
+				<Prp name="relpath" type="S" value="21_09_2021_17_41_30_911\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
