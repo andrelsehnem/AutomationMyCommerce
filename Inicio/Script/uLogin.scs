@@ -1,0 +1,56 @@
+﻿function abrirMycommerce(){
+  Log["AppendFolder"]("Inicia abertura:");
+    if (Sys["WaitProcess"]("frmLogaSistema", 1000)["Exists"]){
+      Log["Warning"]("Já aberto");
+    }
+    else{
+      TestedApps["myCommerce"]["Run"](true);
+      Log["Warning"]("Abrindo MyCommerce");
+    }
+  while (Sys["WaitProcess"]("myCommerce")["Exists"] == false){
+      Delay(500);
+    }
+  Log["PopLogFolder"]();  
+}
+
+function setEmpresa(cod){
+  Log["AppendFolder"]("Inserir empresa " + cod);
+  NameMapping["Sys"]["myCommerce"]["frmLogaSistema"]["txtCodigo"]["SetFocus"]();
+  NameMapping["Sys"]["myCommerce"]["frmLogaSistema"]["txtCodigo"]["txtCodigo"]["Keys"](cod);
+  NameMapping["Sys"]["myCommerce"]["frmLogaSistema"]["txtCodigo"]["Keys"]("[Tab]");
+  if(Aliases["myCommerce"]["dlgMycommerce"]["Exists"]){
+    Log["Warning"](Aliases["myCommerce"]["dlgMycommerce"]["Static"]["WndCaption"]);
+    Aliases["myCommerce"]["dlgMycommerce"]["Window"]("Button", "OK", 1)["Click"]();
+  }
+  else{
+    Log["Message"]("Empresa: " + Aliases["myCommerce"]["frmLogaSistema"]["VBObject"]("txtRazaoSocial")["NativeVBObject"] );
+  }
+  Log["PopLogFolder"]();
+}
+
+
+function setUser(cod){
+  Log["AppendFolder"]("Inserir user " + cod);
+  NameMapping["Sys"]["myCommerce"]["frmLogaSistema"]["txtUsuario"]["SetFocus"]();
+  NameMapping["Sys"]["myCommerce"]["frmLogaSistema"]["txtUsuario"]["txtUsuario"]["Keys"](cod);
+  NameMapping["Sys"]["myCommerce"]["frmLogaSistema"]["txtUsuario"]["Keys"]("[Tab]");
+   if(Aliases["myCommerce"]["dlgMycommerce"]["Exists"]){
+    Log["Warning"](Aliases["myCommerce"]["dlgMycommerce"]["Static"]["WndCaption"]);
+    Aliases["myCommerce"]["dlgMycommerce"]["Window"]("Button", "OK", 1)["Click"]();
+  }
+  else{
+    Log["Message"]("Usuário: " + Aliases["myCommerce"]["frmLogaSistema"]["VBObject"]("txtNome")["NativeVBObject"]);
+  }
+  Log["PopLogFolder"]();
+}
+
+
+//banco 7472
+function testar(){ 
+  Log["AppendFolder"]("Teste iniciado");
+  abrirMycommerce();
+  //setEmpresa(30);
+  //setEmpresa(2);
+  //setUser(5);
+  setUser(53);
+}

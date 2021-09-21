@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{AD952701-BD41-46A8-92DA-2922222A806C}">
+				<TypeInfo Item0="{B513D658-6636-4652-881B-87B70488D635}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="myCommerce" Key="{31BF702B-9047-4E3E-8346-B1E8B919AA8E}">
+						<TypeInfo Item0="{533B292A-386A-4492-BD38-76321BFA0DF4}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="myCommerce" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="frmLogaSistema" Key="{3F3D9D5A-DEF6-4685-A030-781FB0B930D5}">
+								<Image FileName="898075260" Left="0" Top="0" Right="528" Bottom="367" />
+								<TypeInfo Item0="{F5C887AA-0679-4E96-8CA5-762DD243E2A2}" />
+								<Properties>
+									<Property Name="NativeVBObject.Name">
+										<Value Value="frmLogaSistema" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="txtCodigo" Key="{B6D33FE4-5C80-478B-AE0D-B29F0FFE11C5}">
+										<Image FileName="-1683346892" Left="38" Top="135" Right="109" Bottom="156" />
+										<TypeInfo Item0="{46B4131C-8659-4962-82CA-D057F3C35637}" />
+										<Properties>
+											<Property Name="NativeVBObject.Name">
+												<Value Value="txtCodigo" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="txtCodigo" Key="{30E8C3F9-EDBB-4E3F-903B-B957B285792B}">
+												<Image FileName="-922456704" Left="38" Top="135" Right="109" Bottom="156" />
+												<TypeInfo Item0="{9E7E56CC-89F0-4FD3-9EC9-95C06212F053}" />
+												<Properties>
+													<Property Name="NativeVBObject.Name">
+														<Value Value="txtCodigo" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="txtUsuario" Key="{06F7FE91-E810-4869-8167-6456500A0840}">
+										<Image FileName="-2083532831" Left="40" Top="227" Right="153" Bottom="248" />
+										<TypeInfo Item0="{46B4131C-8659-4962-82CA-D057F3C35637}" />
+										<Properties>
+											<Property Name="NativeVBObject.Name">
+												<Value Value="txtUsuario" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="txtUsuario" Key="{93676B2C-7A52-4606-8407-34E455EA9AEF}">
+												<Image FileName="-2083532831" Left="40" Top="227" Right="153" Bottom="248" />
+												<TypeInfo Item0="{9E7E56CC-89F0-4FD3-9EC9-95C06212F053}" />
+												<Properties>
+													<Property Name="NativeVBObject.Name">
+														<Value Value="txtUsuario" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Text1" Key="{3AF3FEA9-DD6D-4E3D-9C6E-F9C0E68E216E}">
+												<Image FileName="-2083532831" Left="40" Top="227" Right="153" Bottom="248" />
+												<TypeInfo Item0="{8EDF9139-D7B2-4912-A645-63EEEDD83E2F}" />
+												<Properties>
+													<Property Name="NativeVBObject.Name">
+														<Value Value="Text1" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgMycommerce" Key="{DDD269A4-3159-440F-A365-C9A96A4B2241}">
+								<Image FileName="1178758122" Left="0" Top="0" Right="335" Bottom="149" />
+								<TypeInfo Item0="{F5C887AA-0679-4E96-8CA5-762DD243E2A2}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Mycommerce" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Static" Key="{03AD2AD9-E0E2-4A32-9739-C797E4429B9B}">
+										<Image FileName="-1829036472" Left="65" Top="59" Right="290" Bottom="74" />
+										<TypeInfo Item0="{46B4131C-8659-4962-82CA-D057F3C35637}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Static" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Atenção! Não existe usuário com este login!" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="Static2" Key="{934D38E1-1C44-4C91-884B-674FBCAA6C77}">
+										<Image FileName="-1829036472" Left="24" Top="49" Right="56" Bottom="81" />
+										<TypeInfo Item0="{46B4131C-8659-4962-82CA-D057F3C35637}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Static" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnOK" Key="{363B3EC3-57B9-4EE4-B05C-847715D76033}">
+										<Image FileName="-1829036472" Left="230" Top="114" Right="305" Bottom="137" />
+										<TypeInfo Item0="{9D9A96E0-DCF3-48D9-B3E0-AE1C54A15D3F}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="OK" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="myCommerce" Owner="{31BF702B-9047-4E3E-8346-B1E8B919AA8E}">
+			<Child Name="frmLogaSistema" Owner="{3F3D9D5A-DEF6-4685-A030-781FB0B930D5}">
+				<Child Name="txtCodigo" Owner="{B6D33FE4-5C80-478B-AE0D-B29F0FFE11C5}">
+					<Child Name="txtCodigo" Owner="{30E8C3F9-EDBB-4E3F-903B-B957B285792B}" />
+				</Child>
+				<Child Name="txtUsuario" Owner="{06F7FE91-E810-4869-8167-6456500A0840}">
+					<Child Name="txtUsuario" Owner="{93676B2C-7A52-4606-8407-34E455EA9AEF}" />
+					<Child Name="Text1" Owner="{3AF3FEA9-DD6D-4E3D-9C6E-F9C0E68E216E}" />
+				</Child>
+			</Child>
+			<Child Name="dlgMycommerce" Owner="{DDD269A4-3159-440F-A365-C9A96A4B2241}">
+				<Child Name="Static" Owner="{03AD2AD9-E0E2-4A32-9739-C797E4429B9B}" />
+				<Child Name="Static2" Owner="{934D38E1-1C44-4C91-884B-674FBCAA6C77}" />
+				<Child Name="btnOK" Owner="{363B3EC3-57B9-4EE4-B05C-847715D76033}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

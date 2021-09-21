@@ -1,0 +1,15 @@
+﻿=
+
+function verificaEstoque(){
+  var coluna = Aliases["myCommerce"]["MDIMenu"]["MDIClient"]["VBObject"]("frmProdutos")["VBObject"]("Painel")["VBObject"]("Grid")["Col"] = 2;
+  var estoque = Aliases["myCommerce"]["MDIMenu"]["MDIClient"]["VBObject"]("frmProdutos")["VBObject"]("Painel")["VBObject"]("Grid")["NativeVBObject"]
+}
+
+function digitaCodigo(cod){
+  Aliases["myCommerce"]["MDIMenu"]["MDIClient"]["VBObject"]("frmProdutos")["VBObject"]("Painel")["VBObject"]("Frame1")["VBObject"]("txtPesquisa_2")["VBObject"]("Text1")["NativeVBObject"]
+  // =  cod;
+}
+
+function rodar(){
+  digitaCodigo(21)
+}

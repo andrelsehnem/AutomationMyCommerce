@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{6352C81C-A44E-4E81-BE20-082ED6AE4BFD}">
+	<children>
+		<child name="Inicio" key="{F96C6963-3563-4442-BB00-1DF93F841C81}" path="Inicio\Inicio.mds" />
+	</children>
+	<testItems key="{CAE74246-B35A-40C4-82F1-8E6AC68DACB3}">
+		<children>
+			<testItem key="{F96C6963-3563-4442-BB00-1DF93F841C81}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{B5819DA5-64AB-473F-AE75-3AA82883A604}" />
+	<analysis key="{9E956B11-CF34-49C4-82E4-FAAACC49DF0D}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>
