@@ -21,7 +21,7 @@
 	<Node name="root">
 		<Node name="data">
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="activity" type="S" value="{941EB883-2DE9-4759-AB4A-88AF3C85FE14}"/>
+				<Prp name="activity" type="S" value="{19D7AB35-D422-467B-A6EA-ED2044D56A7B}"/>
 			</Node>
 			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
 				<Node name="{45a9cb4a-0fcb-4c30-b3f1-94147bf9939e}">
@@ -33,11 +33,11 @@
 					<Node name="0">
 						<Node name="editor">
 							<Node name="{8c45957c-f4b3-4dd7-9212-49cbd350f69f}">
-								<Prp name="key" type="S" value="{3A673505-920D-4EF1-8096-E7C5DE9A7EA5}"/>
+								<Prp name="key" type="S" value="{7076E003-E91C-4D35-98C1-9C6EE9ECAC00}"/>
 							</Node>
 							<Node name="{d0151f8e-51fe-49da-8534-008b9f1b7c45}">
 								<Prp name="col" type="I" value="0"/>
-								<Prp name="key" type="S" value="{C020B9AF-806F-4387-9994-35C41DA73D63}"/>
+								<Prp name="key" type="S" value="{EAEC717A-E123-45BA-8435-CC7848F3CF2F}"/>
 								<Prp name="line" type="I" value="46"/>
 								<Prp name="sellength" type="I" value="0"/>
 								<Prp name="selstart" type="I" value="1885"/>
@@ -52,7 +52,7 @@
 					<Node name="1">
 						<Node name="editor">
 							<Node name="{6ad0a550-4d53-4c87-b52b-74f8d09ac0f4}">
-								<Prp name="key" type="S" value="{5AB5F958-5126-4C78-A9C9-48565AE318D3}"/>
+								<Prp name="key" type="S" value="{0E92FA5A-CCCC-4E34-A6C6-D78FF8165586}"/>
 							</Node>
 							<Prp name="editor" type="S" value="{FE421E34-A002-4A5E-BCFA-E8C59DAB7F4B}"/>
 							<Prp name="focused" type="S" value="{5AB5F958-5126-4C78-A9C9-48565AE318D3}"/>
@@ -83,6 +83,7 @@
 			</Node>
 			<Node name="{d0151f8e-51fe-49da-8534-008b9f1b7c45}">
 				<Node name="{00000000-0000-0000-0000-000000000000}">
+					<Node name="{19d7ab35-d422-467b-a6ea-ed2044d56a7b}"/>
 					<Node name="{941eb883-2de9-4759-ab4a-88af3c85fe14}">
 						<Node name="0">
 							<Prp name="bottom" type="I" value="13"/>
@@ -126,7 +127,9 @@
 						<Node name="testedapps"/>
 					</Node>
 				</Node>
-				<Node name="automationmycommerce logs"/>
+				<Node name="automationmycommerce logs">
+					<Node name="inicio logs"/>
+				</Node>
 			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{8EBE6EB3-803D-4913-AD7A-D71552123A67}"/>

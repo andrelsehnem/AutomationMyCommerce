@@ -1,0 +1,53 @@
+﻿//Aliases["myCommerce"]["MDIMenu"]["MDIClient"]["FrmAcertoEstoque"]["VBObject"]("PainelLancamento")["VBObject"]("Frame3")["VBObject"]("TxtCodigo")["VBObject"]("Text1")
+
+function codProduto(produto){
+  Aliases["myCommerce"]["MDIMenu"]["MDIClient"]["FrmAcertoEstoque"]["VBObject"]("PainelLancamento")["VBObject"]("Frame3")["VBObject"]("TxtCodigo")["VBObject"]("Text1")["Keys"](produto);
+  Aliases["myCommerce"]["MDIMenu"]["MDIClient"]["FrmAcertoEstoque"]["VBObject"]("PainelLancamento")["VBObject"]("Frame3")["VBObject"]("TxtCodigo")["VBObject"]("Text1")["Keys"]("[Tab]");
+}
+
+function insereQuantidade(quantidade){
+  Aliases["myCommerce"]["MDIMenu"]["MDIClient"]["FrmAcertoEstoque"]["VBObject"]("PainelLancamento")["VBObject"]("Frame6")["VBObject"]("TxtQtde")["VBObject"]("Text1")["Keys"](quantidade);
+  Aliases["myCommerce"]["MDIMenu"]["MDIClient"]["FrmAcertoEstoque"]["VBObject"]("PainelLancamento")["VBObject"]("Frame6")["VBObject"]("TxtQtde")["VBObject"]("Text1")["Keys"]("[Tab]");
+}
+
+function processo(produto, quantidade){
+  Log["AppendFolder"]("Produto " + produto + " / Quantidade " + quantidade);
+  codProduto("[Del]")
+  codProduto(produto);
+  insereQuantidade(quantidade);
+  var estoqueAtual = Aliases["myCommerce"]["MDIMenu"]["MDIClient"]["FrmAcertoEstoque"]["VBObject"]("LblAtual")["_Default"];
+  var estoqueEsperado = Aliases["myCommerce"]["MDIMenu"]["MDIClient"]["FrmAcertoEstoque"]["VBObject"]("lblnovoEstoque")["_Default"];
+  
+  var calcEsperado = StrToInt(estoqueAtual)+StrToInt(quantidade);
+
+  if (calcEsperado != estoqueEsperado){
+    Log["Warning"]("Esperado estoque " + calcEsperado + ", exibido " + estoqueEsperado);
+  }
+  
+  //adicionar
+  Aliases["myCommerce"]["MDIMenu"]["MDIClient"]["FrmAcertoEstoque"]["VBObject"]("PainelLancamento")["VBObject"]("CmdSalva")["Click"]();
+  //verificar se foi certo
+  codProduto(produto);
+  var estoqueNovo = Aliases["myCommerce"]["MDIMenu"]["MDIClient"]["FrmAcertoEstoque"]["VBObject"]("LblAtual")["_Default"];;
+  
+  if (estoqueNovo != calcEsperado){
+    Log["Warning"]("Esperado estoque " + calcEsperado + ", estoque atual ficou " + estoqueNovo);
+  }else{
+    Log["Message"]("Esperado estoque " + calcEsperado + ", estoque atual ficou " + estoqueNovo);
+  }
+  
+  Log["PopLogFolder"]();
+}
+
+function automacao(){
+  Log["AppendFolder"]("Inicio dos testes");
+
+  processo(1200,2);
+  
+  Log["PopLogFolder"]();
+}
+
+
+function teste(){
+    codProduto("[Del]")
+}

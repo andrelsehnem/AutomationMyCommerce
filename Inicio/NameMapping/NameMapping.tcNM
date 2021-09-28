@@ -219,6 +219,48 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="MDIMenu" Key="{AD9C8FC2-162D-444F-949E-AB5597E9CF03}">
+								<Image FileName="290746817" Left="0" Top="0" Right="1936" Bottom="1056" />
+								<TypeInfo Item0="{F5C887AA-0679-4E96-8CA5-762DD243E2A2}" />
+								<Properties>
+									<Property Name="NativeVBObject.Name">
+										<Value Value="MDIMenu" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="MDIClient" Key="{3D002D80-7E2C-4333-B514-A692CA7B9D4D}">
+										<Image FileName="290746817" Left="8" Top="87" Right="1928" Bottom="1029" />
+										<TypeInfo Item0="{46B4131C-8659-4962-82CA-D057F3C35637}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="MDIClient" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="FrmAcertoEstoque" Key="{1E2D377D-4A56-427D-A7F2-744E874D664E}">
+												<Image FileName="290746817" Left="663" Top="366" Right="1272" Bottom="751" />
+												<TypeInfo Item0="{A877ABF4-5CEC-4584-8B52-D90567A95BFC}" />
+												<Properties>
+													<Property Name="NativeVBObject.Name">
+														<Value Value="FrmAcertoEstoque" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="LblPAtual" Key="{CF32C3A5-F2AC-48B6-BC5C-8EB9BBF3AECB}">
+														<Image FileName="290746817" Left="1183" Top="470" Right="1259" Bottom="490" />
+														<TypeInfo Item0="{9E7E56CC-89F0-4FD3-9EC9-95C06212F053}" />
+														<Properties>
+															<Property Name="NativeVBObject.Name">
+																<Value Value="LblPAtual" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -250,6 +292,13 @@
 				<Child Name="Static" Owner="{FA79B8B5-AF96-41E5-B186-E984A0C61C54}" />
 				<Child Name="Static2" Owner="{24837C0B-DA95-4A03-ADB3-A9DCF2B7A55B}" />
 				<Child Name="btnOK" Owner="{E5D03E38-1B60-4860-8512-7D86BA21F36E}" />
+			</Child>
+			<Child Name="MDIMenu" Owner="{AD9C8FC2-162D-444F-949E-AB5597E9CF03}">
+				<Child Name="MDIClient" Owner="{3D002D80-7E2C-4333-B514-A692CA7B9D4D}">
+					<Child Name="FrmAcertoEstoque" Owner="{1E2D377D-4A56-427D-A7F2-744E874D664E}">
+						<Child Name="LblPAtual" Owner="{CF32C3A5-F2AC-48B6-BC5C-8EB9BBF3AECB}" />
+					</Child>
+				</Child>
 			</Child>
 		</Child>
 	</LogicalNodes>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child data"/>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{19D7AB35-D422-467B-A6EA-ED2044D56A7B}"/>
+		</Node>
+		<Node name="message 0">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object left" type="I" value="594"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;myCommerce&quot;][&quot;MDIMenu&quot;][&quot;MDIClient&quot;][&quot;FrmAcertoEstoque&quot;][&quot;VBObject&quot;](&quot;PainelLancamento&quot;)[&quot;VBObject&quot;](&quot;Frame3&quot;)[&quot;VBObject&quot;](&quot;TxtCodigo&quot;)[&quot;VBObject&quot;](&quot;Text1&quot;)"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="object bottom" type="I" value="371"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44467.7576740741"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="351"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Del]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys[&quot;Process&quot;](&quot;myCommerce&quot;)[&quot;VBObject&quot;](&quot;MDIMenu&quot;)[&quot;Window&quot;](&quot;MDIClient&quot;, &quot;&quot;, 1)[&quot;VBObject&quot;](&quot;FrmAcertoEstoque&quot;)[&quot;VBObject&quot;](&quot;PainelLancamento&quot;)[&quot;VBObject&quot;](&quot;Frame3&quot;)[&quot;VBObject&quot;](&quot;TxtCodigo&quot;)[&quot;VBObject&quot;](&quot;Text1&quot;)"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="date" type="D" value="44467.6326758218"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object left" type="I" value="594"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;myCommerce&quot;][&quot;MDIMenu&quot;][&quot;MDIClient&quot;][&quot;FrmAcertoEstoque&quot;][&quot;VBObject&quot;](&quot;PainelLancamento&quot;)[&quot;VBObject&quot;](&quot;Frame3&quot;)[&quot;VBObject&quot;](&quot;TxtCodigo&quot;)[&quot;VBObject&quot;](&quot;Text1&quot;)"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="object bottom" type="I" value="371"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44467.7576765972"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="351"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Tab]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys[&quot;Process&quot;](&quot;myCommerce&quot;)[&quot;VBObject&quot;](&quot;MDIMenu&quot;)[&quot;Window&quot;](&quot;MDIClient&quot;, &quot;&quot;, 1)[&quot;VBObject&quot;](&quot;FrmAcertoEstoque&quot;)[&quot;VBObject&quot;](&quot;PainelLancamento&quot;)[&quot;VBObject&quot;](&quot;Frame3&quot;)[&quot;VBObject&quot;](&quot;TxtCodigo&quot;)[&quot;VBObject&quot;](&quot;Text1&quot;)"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="date" type="D" value="44467.6326780671"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

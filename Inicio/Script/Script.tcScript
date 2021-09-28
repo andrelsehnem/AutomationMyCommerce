@@ -2,5 +2,6 @@
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
 		<child name="uLogin" key="{941EB883-2DE9-4759-AB4A-88AF3C85FE14}" path="uLogin.scs" />
+		<child name="uAcertoEstoque" key="{19D7AB35-D422-467B-A6EA-ED2044D56A7B}" path="uAcertoEstoque.scs" />
 	</children>
 </Root>
